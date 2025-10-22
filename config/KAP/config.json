@@ -493,7 +493,7 @@
                 {
                     "key": "PYSPARK_PYTHON",
                     "label": "PYSPARK_PYTHON",
-                    "description": "Specify the python version used by a python spark job, current supported python versions are 2.7.13 and 3.6.1. Anaconda distribution data science packages numpy, scikit-learn, scipy, Pandas, NLTK and Matplotlib are also included.",
+                    "description": "Specify the python version used by a python spark job, current supported python versions are 2.7.15 and 3.6.15.  data science packages numpy, scikit-learn, scipy, Pandas   and Matplotlib are also included.",
                     "type": "string",
                     "default": "python2",
                     "range": ["python2","python3"],

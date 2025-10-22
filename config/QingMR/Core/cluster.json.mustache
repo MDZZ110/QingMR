@@ -6,7 +6,8 @@
         "external_service": {{cluster.external_service}}
     },
     "upgrade_policy":  [
-        "appv-v71be1fi"
+        "appv-v71be1fi",
+        "appv-tuwjdqqb"
     ],
     "nodes": [
         {
@@ -14,7 +15,7 @@
             "container": {
                 "type": "kvm",
                 "zone": "pek3",
-                "image": "img-smu1sgir"
+                "image": "img-3n8mwfja"
             },
             "instance_class": {{cluster.hdfs-master.instance_class}},
             "count": 1,
@@ -170,7 +171,7 @@
             "container": {
                 "zone": "pek3",
                 "type": "kvm",
-                "image": "img-t1vs9vn9"
+                "image": "img-jjvsw7ue"
             },
             "instance_class": {{cluster.yarn-master.instance_class}},
             "count": 1,
@@ -438,7 +439,7 @@
             "container": {
                 "type": "kvm",
                 "zone": "pek3",
-                "image": "img-gvc8glct"
+                "image": "img-5mipkxel"
             },
             "instance_class": {{cluster.slave.instance_class}},
             "count": {{cluster.slave.count}},
@@ -611,7 +612,7 @@
             "container": {
                 "type": "kvm",
                 "zone": "pek3",
-                "image": "img-6avh8rpb"
+                "image": "img-uk8ua6fw"
             },
             "instance_class": {{cluster.bigdata-client.instance_class}},
             "count": {{cluster.bigdata-client.count}},

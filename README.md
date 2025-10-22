@@ -22,8 +22,8 @@
 - 同时支持 Spark Standalone 和 Spark on YARN 两种模式
 - 支持 Flink on YARN 模式
 - 同时支持 Hive on MapReduce 和 Hive on Spark 两种模式
-- 为了方便用户提交 Python Spark 应用，提供了 Anaconda 发行版的 Python 2.7.13 和 Python 3.6.1 。用户可以选择 Python Spark 应用的运行环境，支持在 Python2 和 Python3 之间进行切换
-- 为了方便用户开发 Python Spark 机器学习类的应用， 分别在 Anaconda 发行版的 Python2 和 Python3 内提供了 Anaconda 发行版的数据科学包 numpy, scikit-learn, scipy, Pandas, NLTK and Matplotlib
+- 为了方便用户提交 Python Spark 应用，提供了 Python 2.7.15 和 Python 3.6.15 。用户可以选择 Python Spark 应用的运行环境，支持在 Python2 和 Python3 之间进行切换
+- 为了方便用户开发 Python Spark 机器学习类的应用， 分别 Python2 和 Python3 内提供 数据科学包 numpy, scikit-learn, scipy, Pandas and Matplotlib
 - 为了方便用户开发 Spark R 应用，提供了R语言运行时。
 - 支持上传自定义的 Spark 应用内调度器 Fair Schudeler，并支持 spark 应用内调度模式在 FIFO 和 FAIR 切换
 - 支持用户自定义 Hadoop 代理用户及其能够代理哪些 hosts 和这些 hosts 中的哪些 groups
